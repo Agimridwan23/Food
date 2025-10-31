@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Mylayouts" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Hilangkan override warna default Material 3 -->
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryContainer">@android:color/black</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Tambahkan warna permukaan (untuk tombol abu) -->
+        <item name="colorSurfaceVariant">#EEEEEE</item>
+        <item name="colorOnSurfaceVariant">@android:color/black</item>
+
+        <!-- Pastikan tombol tidak mengikuti warna tema -->
+        <item name="materialButtonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+    <style name="Theme.Mylayouts" parent="Base.Theme.Mylayouts" />
+
+    <!-- Custom Button Style -->
+    <style name="CustomButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+</resources>
