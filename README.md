@@ -50,13 +50,13 @@ Menampilkan daftar menu makanan lengkap dengan gambar, harga, dan tombol **“Pe
 ---
 
 ### 6️⃣ Konfirmasi Pesanan
-![Konfirmasi](gambar/screen6-konfirmasi.jpg)  
+![Konfirmasi](Gambar/screen6-konfirmasi.jpg)  
 Menampilkan detail pesanan pengguna seperti nama makanan, jumlah, dan total harga.
 
 ---
 
 ### 7️⃣ Isi Alamat Pengiriman
-![Alamat](Gmbar/screen7-alamat.jpg)  
+![Alamat](Gambar/screen7-alamat.jpg)  
 Pengguna mengisi alamat lengkap untuk pengantaran makanan.
 
 ---
